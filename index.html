@@ -44,9 +44,11 @@
     </div>
   </nav>
   
-  <!-- Top menu on small screens -->
-  <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
-    <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+
+  <header class="w3-container top-bar w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+    <div  class=" small-title" >
+      <b>Boise Brownie Barons</b>
+    </div >
     <span></span>
   </header>
   
@@ -54,31 +56,31 @@
   <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor: pointer; display: none;" title="close side menu" id="myOverlay"></div>
   
   <!-- !PAGE CONTENT! -->
-  <div class="w3-main" style="margin-left:340px;margin-right:40px">
+  <div class="w3-main page" style="margin-left:340px;margin-right:40px">
   
     <!-- Header -->
     <div class="w3-container" style="margin-top:80px" id="showcase">
-      <h1 class="w3-jumbo"><b>Boise Brownie Barons</b></h1>
+      <h1 class="w3-jumbo midsize-title"><b>Boise Brownie Barons</b></h1>
     </div>
     
     
     <!-- Contact -->
     <div class="w3-container custom-contact" id="contact" style="margin-top:75px">
-      <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+      <h1 class="w3-xxlarge w3-text-red"><b>Contact.</b></h1>
       <hr style="width:50px;border:5px solid red" class="w3-round">
       <p>Are you interested having my brownies for your event? Just want to share some kind words? Please reach out to me!</p>
       <form>
         <div class="w3-section">
           <label>Name</label>
-          <input class="w3-input w3-border" value="This should be a final test before deploy" type="text" name="Name" required="">
+          <input class="w3-input w3-border"  type="text" name="Name" required="">
         </div>
         <div class="w3-section">
           <label>Email</label>
-          <input class="w3-input w3-border" value="Prithee ye who venture here" type="text" name="Email" required="">
+          <input class="w3-input w3-border" type="text" name="Email" required="">
         </div>
         <div class="w3-section">
           <label>Message</label>
-          <input class="w3-input w3-border" value="Brownies for the barons three" type="text" name="Message" required="">
+          <input class="w3-input w3-border" type="text" name="Message" required="">
         </div>
         <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
       </form>  
