@@ -8,7 +8,7 @@
 .custom-contact {
   
   --padding: 10%;
-  padding-left: var(--padding);
+  /* padding-left: var(--padding); */
   padding-right: var(--padding);
 }
 
