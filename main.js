@@ -35,7 +35,7 @@ async function submit(e) {
 try {
   emailjs.send(cred.service_id,cred.template_id, cred.template_params)
 	.then(function(response) {
-	   console.log('SUCCESS!', response.status, response.text);
+	   window.alert("Thank you! The Barons will speak with you shortly!")
 	}, function(err) {
 	   console.log('FAILED...', err);
 	});
