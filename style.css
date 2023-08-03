@@ -1,0 +1,37 @@
+ 
+.brownie {
+  background-image: url(bg.jpg);
+}
+ 
+ 
+
+.custom-contact {
+  
+  --padding: 10%;
+  padding-left: var(--padding);
+  padding-right: var(--padding);
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.title {
+  --square: 10rem;
+  background-color: black;
+  height: var(--square);
+  width: var(--square);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  font-size: 48;
+  border-radius: 15px;
+  border: 2px solid white;
+  box-shadow: rgb(28, 31, 34) 0px 10px 10px;
+  
+}
