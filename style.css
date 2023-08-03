@@ -21,6 +21,14 @@ body {
   padding-right: var(--padding);
   margin-top: 2rem !important;
 }
+
+.top-bar {
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 @media (max-width: 993px) {
   .page {
     --xpad: 2.5%;
@@ -41,6 +49,21 @@ body {
     font-size: 2.5rem;
     padding-top: 1.5%;
     padding-left: var(--padding);
+  }
+
+  #showcase {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .small-title {
+    font-size:1.5rem;
+  }
+
+  .top-bar {
+    height: 10%;
+;
   }
 }
 
@@ -69,6 +92,8 @@ body {
   
 }
 
-.top-bar {
-  height: 15%;
+
+button {
+  border: 1px solid black;
 }
+
